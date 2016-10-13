@@ -1,0 +1,11 @@
+.center{
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+}
+#pie-chart{
+    /*border:1px dotted black;*/
+    width:800px;
+    height:300px;
+}
