@@ -1,0 +1,111 @@
+body{
+    
+   
+    
+}
+.color{
+   background-color:#00BAAC;
+   font-family: Verdana, Tahoma, sans-serif;
+}
+#front{
+    background-image: url("images/stock000.jpg");
+}
+.plac{
+   background-image: url("images/island.jpg"); 
+}
+.white-bg{
+    background-color:#F2FFFF;
+}
+.nav{
+    
+    padding:1em;
+    padding-top:0.5em;
+    
+}
+.foot{
+ background-color:darkgray;
+ height:3em;
+}
+.white{
+    color:#F2FFFF;
+}
+.spacing{
+    margin-left:1.5em;
+    margin-right:1.5em;
+}
+.map{
+    height:42em;
+}
+.section{
+    height:30em;
+}
+.center{
+text-align: center;
+}
+.left{
+    margin-left:2.5em;
+}
+.right{
+    margin-right:2.5em;
+}
+.bottom{
+    margin-bottom:3.0em;
+}
+.brk {
+    width: 50%;
+    height: 3.0em;
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+
+    background-color:black;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+.colors{
+    background-color:lightgray;
+}
+.remove-padding{
+    padding-top:0px;
+}
+.padding-top{
+    padding-top:1.0em;
+}
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    background-color:#A0E7E7;
+    position:absolute;
+    margin-top:-75px;
+    margin-left:50px;
+
+    
+}
+.box{
+  width:130px;
+  height:130px;
+  margin:5px;
+  background-color:white;
+  border-radius:10px;
+}
+.box2{
+  width:130px;
+  height:130px;
+  margin:5px;
+  background-color:#A0E7E7;
+  border-radius:10px;
+}
+.prop{
+    background-image: url("images/island3.jpg");
+}
+.prop2{
+    background-image: url("images/island.jpg");
+}
+.prop3{
+    background-image: url("images/island2.jpg");
+}

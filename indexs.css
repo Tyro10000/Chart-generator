@@ -1,11 +1,35 @@
 .center{
-    margin: auto;
-    width: 50%;
-    /*border: 3px solid green;*/
-    padding: 10px;
+    text-align: center;
 }
 #pie-chart{
     /*border:1px dotted black;*/
-    width:800px;
-    height:300px;
+    
+}
+.menu-bar{
+width:100%;
+height:50px;
+background-color:cornflowerblue;
+}
+.container{
+    
+}
+body{
+    margin:0px;
+}
+.pitch-right{
+    border:1px solid black;
+    
+    border-radius:5px;
+    width:100px;
+    height:100px;
+}
+.space-top{
+    margin-top:3px;
+}
+.header{
+    margin:0px;
+    padding-top:10px;
+    margin-left:10px;
+    font-size:22px;
+    color:white;
 }

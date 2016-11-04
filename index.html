@@ -2,22 +2,42 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="indexs.css">
-        <title>Pie chart creator</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>chart creator</title>
     </head>
     <body>
-        
-        <h2>Pie Chart</h2>
-        <div class="form">
-            <h4>Data</h4>
-            <textarea id = "slices" type="textArea"></textarea><br>
-            <textarea id = "names" type="textArea"></textarea><br>
-            <button id = "submit" type="button" onclick="pieChart()">Submit</button>
-         </div>
-            <div class="center">
-            <canvas id="pie-chart" width="800" height="300" style="border:1px solid black"></canvas>
+        <div class="menu-bar">
+            <div class="row">
+                <span class="col-xs-9 header">Pie Chart</span>
+                <span class="col-xs-2 space-top">
+                    <!--<button  type="button" class="btn btn-primary" onclick="">
+                        <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+                    </button>-->
+                </span>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="form"><br/>
+            <div class="row">
+                <div class="col-xs-12"><p>Data</p><input type="text" id="slices" class="form-control" placeholder="1,2,3,etc." aria-describedby="basic-addon1"></div>
+                <div class="col-xs-12"><p>Namespace</p> <input type="text" id="names" class="form-control" placeholder="A,B,C,etc." aria-describedby="basic-addon1"></textarea></div>
+                <div class="col-xs-12 space-top" >
+                    <button  type="button" class="btn btn-primary" onclick="pieChart()">Submit</button>
+                    <a id="link" herf=""><button  type="button" onclick="Post('myfilename.txt', 'text/plain')" class="btn btn-info">Export</button></a>
+                    <!--<button  type="button" class="btn btn-info" onclick="clear()">Display Xml</button>-->
+                    <button  type="button" class="btn btn-warning" onclick="Clean()">Clear</button>
+                </div>
+            </div>
+            </div><br/>
+            <div class="row">
+                <canvas id="pie-chart" width="400" height="400"></canvas>
+            </div>
         </div>
     </body>
     <script src="Graph.js"></script>
+    
 </html> 
 <!--
     features 
